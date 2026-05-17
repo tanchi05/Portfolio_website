@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 56px;
+  }
+
+  body {
+    background-color: #080c10;
+    color: #e2eaf4;
+    font-family: 'DM Sans', sans-serif;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: rgba(0, 212, 170, 0.25);
+    color: #e2eaf4;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #080c10;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e2f42;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #264059;
+  }
+}
+
+@layer components {
+  .section-label {
+    @apply font-mono text-[10px] text-accent tracking-[2.5px] uppercase mb-1 flex items-center gap-2;
+  }
+
+  .section-title {
+    @apply font-head font-bold tracking-tight text-tx1 mb-6;
+    font-size: clamp(22px, 3.5vw, 32px);
+    letter-spacing: -0.8px;
+  }
+
+  .card {
+    @apply bg-surface border border-border1 rounded-xl transition-all duration-200;
+  }
+
+  .card:hover {
+    @apply border-border2;
+  }
+
+  .skill-tag {
+    @apply bg-bg3 border border-border1 rounded-full px-3 py-1 font-mono text-[10px] text-tx2 transition-all duration-150 cursor-default;
+  }
+
+  .skill-tag:hover {
+    @apply border-accent text-accent bg-accent/10;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-mono text-[12px] font-semibold bg-accent text-bg transition-all duration-200 no-underline;
+  }
+
+  .btn-primary:hover {
+    @apply bg-accent2 -translate-y-px shadow-lg;
+    box-shadow: 0 6px 20px rgba(0, 212, 170, 0.2);
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-mono text-[12px] text-tx2 border border-border2 transition-all duration-200 no-underline;
+  }
+
+  .btn-outline:hover {
+    @apply border-accent text-accent bg-accent/10;
+  }
+
+  .terminal-line {
+    @apply font-mono text-[11px] text-tx3 flex items-center gap-2 mb-5;
+  }
+
+  .form-input {
+    @apply w-full bg-bg border border-border1 rounded-lg px-3 py-2.5 text-tx1 font-body text-[13px] outline-none transition-all duration-200;
+  }
+
+  .form-input:focus {
+    @apply border-accent;
+    box-shadow: 0 0 0 3px rgba(0, 212, 170, 0.08);
+  }
+}
