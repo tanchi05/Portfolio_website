@@ -28,7 +28,7 @@ export const data = {
     },
     {
       category: 'Programming & Scripting',
-      items: ['Python', 'Bash Scripting', 'PHP', 'SQL / MySQL'],
+      items: ['Python', 'Bash Scripting', 'PHP', 'SQL / MySQL','C','C++','Java'],
     },
     {
       category: 'Systems & Platforms',
@@ -36,7 +36,7 @@ export const data = {
     },
     {
       category: 'Development',
-      items: ['HTML', 'CSS', 'MySQL Databases', 'Git & GitHub'],
+      items: ['HTML', 'CSS', 'MySQL Databases', 'Git & GitHub','PHP'],
     },
     {
       category: 'Tools & Technologies',
@@ -58,7 +58,7 @@ export const data = {
         'Structured documentation',
       ],
       tech: ['Markdown', 'GitHub', 'Linux'],
-      link: '#',
+      link: 'https://github.com/tanchi05/Cybersecurity-journey.git',
     },
     {
       name: 'Python Port Scanner',
@@ -93,7 +93,7 @@ export const data = {
         'Security learning environment',
       ],
       tech: ['PHP', 'MySQL', 'HTML/CSS', 'JavaScript'],
-      link: '#',
+      link: 'https://github.com/tanchi05/Hostelsync2.git',
     },
   ],
   lab: {
@@ -130,7 +130,7 @@ export const data = {
     { name: 'Google Cybersecurity Certificate', desc: 'Foundational security certification via Google', status: 'Planned', type: 'planned' },
     { name: 'CompTIA Security+', desc: 'Industry-standard security certification', status: 'Planned', type: 'planned' },
   ],
-  platforms: ['OverTheWire', 'Reddit Cybersecurity', 'Discord Security Communities', 'Cybersecurity YouTube'],
+  platforms: ['OverTheWire', 'Try Hack Me','Reddit Cybersecurity communities', 'Discord Cybersecurity Communities', 'Cybersecurity YouTube'],
   writeups: [
     { type: 'Walkthrough', title: 'OverTheWire Bandit Walkthroughs' },
     { type: 'Notes', title: 'Linux Fundamentals Notes' },
@@ -143,8 +143,8 @@ export const data = {
     'Cybersecurity student with hands-on experience in Linux environments, scripting, networking fundamentals, and offensive security learning. Currently developing practical cybersecurity skills through personal labs, security-focused projects, and continuous self-driven learning in penetration testing and web application security.',
   resumeSkills: ['Linux', 'Kali Linux', 'Python', 'Bash', 'PHP', 'MySQL', 'Web Security', 'Networking', 'Git', 'VirtualBox'],
   contact: {
-    github: 'https://github.com/tanchi-chrispus',
-    linkedin: 'https://linkedin.com/in/tanchi-chrispus',
-    email: 'tanchi@email.com',
+    github: 'https://github.com/tanchi05',
+    linkedin: 'https://linkedin.com/in/chrispus-tanchi-55a70b40b',
+    email: 'barontanchi@email.com',
   },
 }

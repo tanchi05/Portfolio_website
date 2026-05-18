@@ -11,7 +11,7 @@ export default function Navbar() {
       className="sticky top-0 z-50 h-14 border-b border-border1 bg-bg/90 backdrop-blur-xl flex items-center justify-between px-6"
     >
       <div className="font-head text-base font-bold text-accent">
-        TC<span className="text-tx3 font-normal text-xs ml-1.5 font-mono">~/security</span>
+        T C<span className="text-tx3 font-normal text-xs ml-1.5 font-mono">~/security</span>
       </div>
 
       <ul className="hidden md:flex gap-5 list-none">
