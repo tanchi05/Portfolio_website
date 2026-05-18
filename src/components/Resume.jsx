@@ -21,7 +21,7 @@ export default function Resume() {
               </div>
             </div>
             <div className="flex flex-col gap-2 min-w-[140px]">
-              <a href="#" className="btn-primary justify-center">Download PDF</a>
+              <a href="Resume.pdf" className="btn-primary justify-center">Download PDF</a>
               <a href="#contact" className="btn-outline justify-center">Get in Touch</a>
             </div>
           </div>
