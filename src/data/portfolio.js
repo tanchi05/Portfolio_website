@@ -20,6 +20,7 @@ export const data = {
     'Analytical solver',
     'Technical curiosity',
     'Calm under pressure',
+    'Logical reasoner',
   ],
   skills: [
     {
@@ -32,7 +33,7 @@ export const data = {
     },
     {
       category: 'Systems & Platforms',
-      items: ['Linux Fundamentals', 'Kali Linux', 'Windows 10 VMs', 'VirtualBox'],
+      items: ['Linux Fundamentals', 'Kali Linux', 'Windows', 'VirtualBox'],
     },
     {
       category: 'Development',
@@ -41,6 +42,10 @@ export const data = {
     {
       category: 'Tools & Technologies',
       items: ['SSH', 'GitHub', 'Linux CLI', 'Networking Fundamentals', 'Virtual Machines'],
+    },
+    {
+      category: 'Networking & security tools',
+      items: ['nmap'],
     },
   ],
   projects: [
@@ -62,23 +67,23 @@ export const data = {
     },
     {
       name: 'Python Port Scanner',
-      status: 'In Progress',
-      statusType: 'progress',
+      status: 'Planned',
+      statusType: 'planned',
       description:
         'A beginner Python networking tool for basic port scanning and service discovery — built to learn socket programming and network enumeration concepts.',
       highlights: ['Python socket programming', 'Port enumeration', 'CLI interaction'],
       tech: ['Python', 'Linux'],
-      link: '#',
+      link: null,
     },
     {
       name: 'Firewall Project',
-      status: 'Planned',
-      statusType: 'planned',
+      status: 'Progress',
+      statusType: 'progress',
       description:
         'A planned learning-focused firewall project to deepen understanding of traffic filtering, packet inspection, and network security principles.',
       highlights: ['Traffic filtering logic', 'Network security concepts', 'Python scripting'],
       tech: ['Python', 'Networking'],
-      link: null,
+      link: 'https://github.com/tanchi05/basic-packet-filter.git',
     },
     {
       name: 'HostelSync',
@@ -93,7 +98,7 @@ export const data = {
         'Security learning environment',
       ],
       tech: ['PHP', 'MySQL', 'HTML/CSS', 'JavaScript'],
-      link: 'https://github.com/tanchi05/Hostelsync2.git',
+      link: 'https://github.com/tanchi05/Hostelsync.git',
     },
   ],
   lab: {
