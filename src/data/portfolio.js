@@ -45,7 +45,7 @@ export const data = {
     },
     {
       category: 'Networking & security tools',
-      items: ['nmap'],
+      items: ['nmap','wireshark'],
     },
   ],
   projects: [
