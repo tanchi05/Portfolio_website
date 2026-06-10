@@ -62,7 +62,7 @@ export const data = {
         'OverTheWire Bandit walkthroughs',
         'Structured documentation',
       ],
-      tech: ['Markdown', 'GitHub', 'Linux'],
+      tech: ['Markdown', 'GitHub', 'Linux',],
       link: 'https://github.com/tanchi05/Cybersecurity-journey.git',
     },
     {
@@ -84,6 +84,16 @@ export const data = {
       highlights: ['Traffic filtering logic', 'Network security concepts', 'Python scripting'],
       tech: ['Python', 'Networking'],
       link: 'https://github.com/tanchi05/basic-packet-filter.git',
+    },
+    {
+      name: 'Python keylogger',
+      status: 'Progress',
+      statusType: 'progress',
+      description:
+        'A simple Python keylogger project to understand low-level input handling and data persistence.',
+      highlights: ['Python scripting', 'Input handling', 'Data persistence'],
+      tech: ['Python'],
+      link: 'https://github.com/tanchi05/Python-keylogger.git',
     },
     {
       name: 'HostelSync',
@@ -108,6 +118,7 @@ export const data = {
       'VirtualBox environments',
       'Live boot Kali setup',
       'Isolated network segments',
+      'Pycharm IDE',
     ],
     practice: [
       'Linux workflows & tools',
